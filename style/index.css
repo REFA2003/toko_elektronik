@@ -1,0 +1,183 @@
+body{
+    background: #ebebeb;
+}
+.navbar{
+    display: flex;
+    padding: 12px 14px;
+
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-link ul a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.hero{
+    width: 100%;
+    height: 550px;
+    background: #5465ff;
+    border-radius: 20px;
+}
+
+.container .text-produk{
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: 24px;
+
+}
+
+.wrapper-produk{
+    display: flex;
+    max-width: 1450px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.wrapper-produk .produk{
+    height: 350px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: -10px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.wrapper-produk a{
+    text-decoration: none;
+}
+
+.wrapper-produk .produk img{
+    width: 250px;
+}
+
+.wrapper-produk .produk h2{
+    font-size: 24px;
+    color: black;
+}
+
+.wrapper-produk .produk p{
+    font-size: 18px;
+    color: green;
+    line-height: 0.5px;
+}
+
+.wrapper-detail-produk{
+    width: 100%;
+    margin-left: 60px;
+    display: flex;
+    flex: wrap;
+    padding: 10px;
+    
+}
+
+.text-detail-produk{
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+.wrapper-detail-produk .item img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.wrapper-detail-produk .detail-produk{
+    margin-left: 50px;
+}
+
+.wrapper-detail-produk .detail-produk h4{
+    font-size: 24px;
+    color: #5465ff;
+    font-weight: bold;
+    margin-top: -4px;
+}
+
+.wrapper-detail-produk .detail-produk .harga-produk{
+    font-size: 18px;
+    color: black;
+    line-height: 1.5px;
+}
+
+.wrapper-detail-produk .detail-produk input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.wrapper-detail-produk .detail-produk button{
+    width: 100%;
+    background: #5465ff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.data-produk{
+    
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+table{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+}
+
+th,
+td{
+    text-align: left;
+    padding: 10px;
+}
+
+.informasi{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.dikirim{
+    width: 10%;
+    background: #2a9d8f;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 19px;
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+}
+
+.ditolak{
+    width: 10%;
+    background: #cf2f2f;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 19px;
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+}
